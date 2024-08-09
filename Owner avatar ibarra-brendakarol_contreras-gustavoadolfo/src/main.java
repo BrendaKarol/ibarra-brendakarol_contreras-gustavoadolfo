@@ -2,7 +2,6 @@
 
 
 import dao.implementacion.ODONTOLOGO_DAO_H2;
-import dao.implementacion.ODONTOLOGO_DAO_COLLECTION;
 import modelo.ODONTOLOGO;
 import servicio.ODONTOLOGO_SERVICE;
 
