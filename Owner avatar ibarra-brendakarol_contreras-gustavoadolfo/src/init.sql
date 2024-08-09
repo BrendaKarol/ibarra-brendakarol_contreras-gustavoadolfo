@@ -1,8 +1,7 @@
-package dao;
-
-import java.util.List;
-
-public interface IDAO<T> {
-    T guardar(T t);
-    List<T> listarTodos();
-}
+-- src/init.sql
+CREATE TABLE ODONTOLOGO (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NUMERO_MATRICULA VARCHAR(20),
+    NOMBRE VARCHAR(50),
+    APELLIDO VARCHAR(50)
+);
