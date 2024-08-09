@@ -1,0 +1,166 @@
+2024-08-08 22:48:33,010 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos;INIT=RUNSCRIPT FROM 'classpath:init.sql'
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:20)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:17)
+2024-08-08 22:48:33,011 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos;INIT=RUNSCRIPT FROM 'classpath:init.sql'
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:20)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:18)
+2024-08-08 22:48:33,011 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:48:33,011 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:48:33,011 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al listar odontologos desde la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos;INIT=RUNSCRIPT FROM 'classpath:init.sql'
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.listarTodos(ODONTOLOGO_DAO_H2.java:37)
+	at servicio.ODONTOLOGO_SERVICE.listarTodosLosOdontologos(ODONTOLOGO_SERVICE.java:23)
+	at main.main(main.java:24)
+2024-08-08 22:48:33,012 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologos listados desde la colección
+2024-08-08 22:51:16,552 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al cargar el controlador H2
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.<clinit>(ODONTOLOGO_DAO_H2.java:20)
+	at main.main(main.java:11)
+2024-08-08 22:51:16,559 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:17)
+2024-08-08 22:51:16,559 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:18)
+2024-08-08 22:51:16,559 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:51:16,559 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:51:16,560 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al listar odontologos desde la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/odontologos
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.listarTodos(ODONTOLOGO_DAO_H2.java:45)
+	at servicio.ODONTOLOGO_SERVICE.listarTodosLosOdontologos(ODONTOLOGO_SERVICE.java:23)
+	at main.main(main.java:24)
+2024-08-08 22:51:16,560 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologos listados desde la colección
+2024-08-08 22:51:54,622 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al cargar el controlador H2
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.<clinit>(ODONTOLOGO_DAO_H2.java:20)
+	at main.main(main.java:11)
+2024-08-08 22:51:54,633 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:17)
+2024-08-08 22:51:54,633 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:18)
+2024-08-08 22:51:54,633 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:51:54,633 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:51:54,633 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al listar odontologos desde la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:~/jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.listarTodos(ODONTOLOGO_DAO_H2.java:45)
+	at servicio.ODONTOLOGO_SERVICE.listarTodosLosOdontologos(ODONTOLOGO_SERVICE.java:23)
+	at main.main(main.java:24)
+2024-08-08 22:51:54,634 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologos listados desde la colección
+2024-08-08 22:52:25,350 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al cargar el controlador H2
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.<clinit>(ODONTOLOGO_DAO_H2.java:20)
+	at main.main(main.java:11)
+2024-08-08 22:52:25,357 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:./jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:17)
+2024-08-08 22:52:25,357 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:./jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:18)
+2024-08-08 22:52:25,357 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:52:25,357 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:52:25,357 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al listar odontologos desde la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:./jars
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.listarTodos(ODONTOLOGO_DAO_H2.java:45)
+	at servicio.ODONTOLOGO_SERVICE.listarTodosLosOdontologos(ODONTOLOGO_SERVICE.java:23)
+	at main.main(main.java:24)
+2024-08-08 22:52:25,358 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologos listados desde la colección
+2024-08-08 22:53:07,385 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al cargar el controlador H2
+java.lang.ClassNotFoundException: org.h2.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.<clinit>(ODONTOLOGO_DAO_H2.java:20)
+	at main.main(main.java:11)
+2024-08-08 22:53:07,394 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:../jars/
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:17)
+2024-08-08 22:53:07,394 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al guardar odontologo en la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:../jars/
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:28)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.guardar(ODONTOLOGO_DAO_H2.java:14)
+	at servicio.ODONTOLOGO_SERVICE.guardarOdontologo(ODONTOLOGO_SERVICE.java:18)
+	at main.main(main.java:18)
+2024-08-08 22:53:07,394 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:53:07,394 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologo guardado en la colección
+2024-08-08 22:53:07,395 [main] ERROR dao.implementacion.ODONTOLOGO_DAO_H2 - Error al listar odontologos desde la base de datos
+java.sql.SQLException: No suitable driver found for jdbc:h2:../jars/
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at dao.implementacion.ODONTOLOGO_DAO_H2.listarTodos(ODONTOLOGO_DAO_H2.java:45)
+	at servicio.ODONTOLOGO_SERVICE.listarTodosLosOdontologos(ODONTOLOGO_SERVICE.java:23)
+	at main.main(main.java:24)
+2024-08-08 22:53:07,395 [main] INFO  dao.implementacion.ODONTOLOGO_DAO_COLLECTION - Odontologos listados desde la colección

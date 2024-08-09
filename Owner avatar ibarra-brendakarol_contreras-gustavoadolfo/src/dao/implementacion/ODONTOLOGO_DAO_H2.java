@@ -13,7 +13,15 @@ import java.util.List;
 
 public class ODONTOLOGO_DAO_H2 implements IDAO<ODONTOLOGO> {
     private static final Logger logger = Logger.getLogger(ODONTOLOGO_DAO_H2.class);
-    private static final String URL = "jdbc:h2:~/odontologos;INIT=RUNSCRIPT FROM 'classpath:init.sql'";
+    private static final String URL = "jdbc:h2:../jars/";
+
+    static {
+        try {
+            Class.forName("org.h2.Driver");
+        } catch (ClassNotFoundException e) {
+            logger.error("Error al cargar el controlador H2", e);
+        }
+    }
 
     @Override
     public ODONTOLOGO guardar(ODONTOLOGO odontologo) {
